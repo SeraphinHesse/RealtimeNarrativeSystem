@@ -13,7 +13,8 @@ public class FactionParent : MonoBehaviour
     void Start()
     {
     
-    
+    int Wealth = 5;
+        Debug.Log(Wealth);
     /*
     int Manpower, ManpowerInf;
     int Equipment EquipmentInf;
