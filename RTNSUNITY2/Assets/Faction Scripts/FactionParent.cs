@@ -6,12 +6,13 @@ using TMPro;
 public class FactionParent : MonoBehaviour
 {
     public TextMeshProUGUI output;
+    int Cycle = 0;
 
     // Start is called before the first frame update
     void Start()
     {
     
-    int Cycle = 0;
+    
     int Wealth = 5;
     int Manpower = 0;
     int ManpowerInf = 0;
@@ -25,8 +26,8 @@ public class FactionParent : MonoBehaviour
     }
 
     public void NextCycle(){
-        int Cycle = 0;
-        Cycle += 1;
+        
+        ++Cycle;
         Debug.Log("Yay");
         output.text = "Cycle Counter: " + Cycle;
     }
