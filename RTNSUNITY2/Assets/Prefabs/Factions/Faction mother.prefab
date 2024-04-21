@@ -3217,7 +3217,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7011907881404000072}
-  - component: {fileID: 3826326081151841330}
+  - component: {fileID: 6553751085879784245}
   m_Layer: 0
   m_Name: Faction Script
   m_TagString: Untagged
@@ -3240,7 +3240,7 @@ Transform:
   m_Father: {fileID: 2490878773623816223}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3826326081151841330
+--- !u!114 &6553751085879784245
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3252,7 +3252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e88d746d21e260f419a87b77907dceed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  output: {fileID: 0}
+  Wealthtxt: {fileID: 640034028646835145}
+  WealthInftxt: {fileID: 2075398154851964610}
 --- !u!1 &7447329209205756889
 GameObject:
   m_ObjectHideFlags: 0

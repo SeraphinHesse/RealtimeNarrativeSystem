@@ -5,8 +5,9 @@ using TMPro;
 
 public class FactionParent : MonoBehaviour
 {
-    public TextMeshProUGUI output;
-    
+    public TextMeshProUGUI Wealthtxt;
+    public TextMeshProUGUI WealthInftxt;
+
 
     int Wealth = 5;
     int WealthInf = 2;
@@ -21,7 +22,8 @@ public class FactionParent : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
         Cycle.OnCycleUpdate += UpdateStats;
-        output.text = Wealth.ToString();
+        Wealthtxt.text = Wealth.ToString();
+        WealthInftxt.text = WealthInf.ToString();
     }
 
     void FactionCycleUpdate()
@@ -35,7 +37,7 @@ public class FactionParent : MonoBehaviour
     {
         Debug.Log("it Worked!!");
         Wealth = Wealth + (WealthInf / 2);
-        output.text = Wealth.ToString();
+        Wealthtxt.text = Wealth.ToString();
             ;
 
       
