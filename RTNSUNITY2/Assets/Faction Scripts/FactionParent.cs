@@ -9,6 +9,7 @@ public class FactionParent : MonoBehaviour
     
 
     int Wealth = 5;
+    int WealthInf = 2;
     int Manpower = 0;
     int ManpowerInf = 0;
     int Equipment = 0;
@@ -20,6 +21,7 @@ public class FactionParent : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
         Cycle.OnCycleUpdate += UpdateStats;
+        output.text = Wealth.ToString();
     }
 
     void FactionCycleUpdate()
@@ -32,6 +34,10 @@ public class FactionParent : MonoBehaviour
     void UpdateStats()
     {
         Debug.Log("it Worked!!");
+        Wealth = Wealth + (WealthInf / 2);
+        output.text = Wealth.ToString();
+            ;
+
       
     }
 }
