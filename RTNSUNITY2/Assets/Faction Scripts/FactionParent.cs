@@ -8,6 +8,8 @@ public class FactionParent : MonoBehaviour
     public TextMeshProUGUI Wealthtxt;
     public TextMeshProUGUI WealthInftxt;
 
+    public string FactionName;
+
 // Wealth = HardStats[0] | Manpower = Hardstats[1] | Equipment = HardStats[2]
     int[] HardStats = {5, 1, 2};
 // WealthInf = Infrastucture[0] | Manpower = Infrastructure[1] | Infrastructure = HardStats[2]
