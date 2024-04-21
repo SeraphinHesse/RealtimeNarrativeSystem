@@ -3217,7 +3217,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7011907881404000072}
-  - component: {fileID: 615426927433520498}
+  - component: {fileID: 3826326081151841330}
   m_Layer: 0
   m_Name: Faction Script
   m_TagString: Untagged
@@ -3240,7 +3240,7 @@ Transform:
   m_Father: {fileID: 2490878773623816223}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &615426927433520498
+--- !u!114 &3826326081151841330
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3249,7 +3249,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7194220468723903620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1b16d41a8b391640aeb7cc18afde7e9, type: 3}
+  m_Script: {fileID: 11500000, guid: e88d746d21e260f419a87b77907dceed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   output: {fileID: 0}

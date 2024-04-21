@@ -19,8 +19,19 @@ public class FactionParent : MonoBehaviour
 
     // Start is called before the first frame update
     void Start(){
-
+        Cycle.OnCycleUpdate += UpdateStats;
     }
 
+    void FactionCycleUpdate()
+    {
+        
+    }
+
+
     
+    void UpdateStats()
+    {
+        Debug.Log("it Worked!!");
+      
+    }
 }

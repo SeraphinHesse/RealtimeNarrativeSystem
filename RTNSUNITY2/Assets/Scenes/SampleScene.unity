@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 477908931}
   - component: {fileID: 477908930}
   m_Layer: 5
-  m_Name: Button
+  m_Name: UsernameButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -733,7 +733,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Faction mother
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 615426927433520498, guid: 6851ce09387e6a94293286392426e5c9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6851ce09387e6a94293286392426e5c9, type: 3}
 --- !u!1 &610894447
 GameObject:
@@ -1387,7 +1388,7 @@ GameObject:
   - component: {fileID: 1396708740}
   - component: {fileID: 1396708739}
   m_Layer: 5
-  m_Name: Button
+  m_Name: CycleButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1701,7 +1702,7 @@ GameObject:
   - component: {fileID: 2119381364}
   - component: {fileID: 2119381363}
   m_Layer: 5
-  m_Name: InputField (TMP)
+  m_Name: Username InputField (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
